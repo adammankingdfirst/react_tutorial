@@ -1,0 +1,41 @@
+header {
+    margin: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid grey;
+}
+
+.header-right {
+    display: flex;
+}
+
+ul.menu {
+    list-style: none;
+    display: flex;
+    margin-right: 4rem;
+}
+
+ul.menu li:not(:last-child) {
+    margin-right: 0.8rem;
+    font-weight: 600;
+}
+
+ul.menu li:not(:last-child)::after {
+    content: '|';
+    font-size: 1.2em;
+    margin-left: 0.8rem;
+}
+
+ul.menu li:last-child {
+    line-height: 1.8em;
+    font-weight: 600;
+}
+
+.cart-btn {
+    margin: auto;
+    padding: .3rem 1rem;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer; 
+}
+
